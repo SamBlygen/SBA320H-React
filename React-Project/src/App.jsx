@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import CharacterList from  './component/CharacterList'
 import CharacterCard from './component/CharacterCard';
-
+import './App.css'
 
 function App() {
   const [characters, setCharacters]= useState([]);
@@ -21,7 +21,6 @@ console.log('error fetching character')
   return(
     <div className='App'>
       <h1>Harry Potter Characters</h1>
-      <FavoriteCharacters/>
       <CharacterList characters={characters}/>
       
     </div>

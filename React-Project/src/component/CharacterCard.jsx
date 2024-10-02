@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import CharacterList from "./CharacterList";
 
 const CharacterCard =({character}) =>{
   const [isFavorite, setIsFavorite] = useState(false);
