@@ -14,5 +14,39 @@
 }
 
 .character-card img {
-  border-radius: 15px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+
 }
+
+.App{
+  text-align: center;
+  color: rgb(240, 253, 255);
+}
+
+body{
+  background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJvdGNkN3F4Z3R6eDczcW1iMnZwdWdqbTNrYmt1MTNleTdhcG9idSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13eD01wPr7iiTC/giphy.gif');
+}
+
+h1 {
+  font-size: 4em;
+  padding-bottom: 5%;
+}
+
+.Favorite {
+  background-color: white; 
+  color: black;
+  padding: 5px 6px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Favorite.favorited {
+  background-color: orange;
+  color: white;
+}
+
+  
